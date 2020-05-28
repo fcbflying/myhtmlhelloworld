@@ -1,0 +1,75 @@
+
+#app{
+  width: 375px;
+  height: 667px;
+  margin: 0 auto;
+  border: 1px solid red;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #D02129;
+  margin-top: 54px;
+}
+
+.header .title {
+  height: 25px;
+  line-height: 25px;
+  font-size: 24px;
+}
+
+.header .description {
+  font-weight: bold;
+  height: 25px;
+  line-height: 25px;
+  font-size: 28px;
+  margin-top: 15px;
+}
+
+.send-box {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.send-box input {
+  background: #EFEFEF;
+  border: 1px solid #C8C7CC;
+  flex-grow: 1;
+  outline: none;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 8px;
+  font-size: 12px;
+}
+
+.send-box span {
+  color: #D02129;
+  text-align: right;
+  margin-left: 9px;
+  font-size: 15px;
+  height: 40px;
+  line-height: 40px;
+  width: 40px;
+}
+
+.message-container {
+  display: flex;
+  min-height: 300px;
+}
+
+.message-content {
+  background-color: #FFFFFF;
+  border: 0.01rem solid #DADADA;
+  flex: 1;
+}
+
+.message-text {
+  padding: 4px 11px;
+  font-size: 12px;
+}
