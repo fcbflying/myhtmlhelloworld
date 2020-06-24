@@ -17,8 +17,8 @@
 
         var initGoEasy = function() {
         goeasy = GoEasy({
-            host: 'hangzhou.goeasy.io',
-            appkey: "您的appkey",
+            host: 'testhangzhou.goeasy.io',
+            appkey: "BC-fcc528bc29fd49859c88cf0e16462dc6",
             onConnected: function () {
                 console.log("GoEasy connect successfully.");
             },
